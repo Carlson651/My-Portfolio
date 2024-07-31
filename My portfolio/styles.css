@@ -1,0 +1,97 @@
+body {
+    background: #030000;
+    color: #25f312;
+    font-family: Arial, sans-serif;
+    
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333;
+    color: #00ff00;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #3b08f0;
+    text-decoration: none;
+}
+
+.about, .projects {
+    padding: 3em 0;
+    text-align: center;
+}
+
+.about .container, .projects .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.about h2, .projects h2 {
+    margin-bottom: 1em;
+    font-size: 2em;
+}
+
+.projects .project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.projects .project-item {
+    background: #da0505;
+    border: 1px solid #e70a0a;
+    padding: 1em;
+    margin: 1em;
+    flex-basis: calc(33.333% - 2em);
+    box-sizing: border-box;
+    transition: transform 0.3s;
+}
+
+.projects .project-item:hover {
+    transform: scale(1.05);
+}
+
+.projects h3 {
+    margin-top: 0;
+}
+
+footer {
+    background: #0a0101;
+    color: #030000;
+    text-align: center;
+    padding: 1em 0;
+}
+
+footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
